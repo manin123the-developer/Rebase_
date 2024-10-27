@@ -1,5 +1,8 @@
+
 def count_combinations(pieces,target):
     result=list() #New comment from Local Machine...
+    result= []#First change from the Ec2 instance.
+
     def find_combination(start,target,c_omb):
         if target==0:
            result.append(tuple(c_omb))
